@@ -7,3 +7,6 @@ Personas: representados por clínicas específicas (donos de clinicas), consult�
 Aparecerá a disponibilidade de agenda, selecionar o horário, data e fazer o agendamento, cadastrar os pacientes.
 Incluir todos os participantes do grupo 5.
 Começar a fazer os baglogs e incluir alguns diagramas.
+Olhas os requisitos e os casos de uso.
+Próxima etapa (02) - Diagrama de classe, que precisa bater com o caso de uso.
+Utilizar o diagrama de orientação de objetos, mas quando utilizar o banco de dados, irá apresentar o diagrama de classes sendo mapeado para o modelo de entidade relacionamento (MER).
