@@ -11,7 +11,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Marcus Vinicius Marinho Ferreira
-* Nome completo do aluno 2
+* Igor Teixeira da Costa
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 
