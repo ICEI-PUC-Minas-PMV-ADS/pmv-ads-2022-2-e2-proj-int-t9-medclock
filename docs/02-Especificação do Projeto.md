@@ -1,15 +1,39 @@
 # Especificações do Projeto
 
-## Personas (FALTA PREENCHER)
+## Personas
 
-## Histórias de Usuários (FALTA PREENCHER)
+Luana Alves - 21 anos
+
+- Assistente produção
+- Ela tem diversas crises de ansiedade e vinha fazendo tratando com psicólogos, depois da pandemia, não consegue sair de casa, mesmo agora, então interrompeu seus tratamentos, se sente cada vez pior e procura ajuda em atendimentos em plataformas online.
+
+Pedro Carvalho - 23 anos
+
+- Trabalha como entregador em aplicativos de comida.
+- Ele acaba que, por falta de tempo, fazer agendamentos presenciais. Depois que começou a usar métodos de agendamento medico online, não consegue o fazer de outra forma, muito mais pratico, em sua opinião. 
+
+Jonathan Costa - 26 anos
+
+- Programador
+- Ele trabalha para uma clinica medica que utiliza serviços de agendamentos online e por trabalhar na área pode experimentar dos seus benefícios.
+
+Fabiola Ferreira - 48 anos
+
+- Médica e dona da clinica Saúde em Vida
+- Ela representa o público de profissionais de saúde que busca, expandir o alcance de seu trabalho, ela usaria a plataforma para aprimorar seus serviços.
+
+
+## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-| EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE` | PARA ... `MOTIVO/VALOR`                |
-| -------------------- | ---------------------------------- | -------------------------------------- |
-| Usuário do sistema   | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-| Administrador        | Alterar permissões                 | Permitir que possam administrar contas |
+| `PERSONA`         | `FUNCIONALIDADE`                                                                    | `MOTIVO/VALOR`                                                                                                     |
+| ----------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Luana Alves       | Ter um local de confiança para prosseguir com meu tratamento | Poder ter a praticidade, conforto e a segurança mediante a qualquer situação. |
+| Pedro Carvalho    | Cuidar da saúde de forma mais pratica mediante a sua rotina                         | Ter acesso a saúde em qualquer situação.                     |
+
+| Jonathan Costa    | Continuar com a praticidade e a qualidade de vida em ter saúde de forma mais acessível                                | Promover a saúde tanto em utilização quanto em produção em seu próprio oficio                                                                 |
+| Fabiola Ferreira  | Ter acesso a pessoas de forma mais fácil e segura para ambos os lados                               | Oferecer saúde de qualidade de forma confortável com que todos tenham acesso a saúde independente da situação que se encontra          |
 
 ## Requisitos
 
