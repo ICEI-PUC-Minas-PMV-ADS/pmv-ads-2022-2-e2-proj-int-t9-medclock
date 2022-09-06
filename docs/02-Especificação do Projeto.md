@@ -31,7 +31,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | ----------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | Luana Alves       | Ter um local de confiança para prosseguir com meu tratamento | Poder ter a praticidade, conforto e a segurança mediante a qualquer situação. |
 | Pedro Carvalho    | Cuidar da saúde de forma mais pratica mediante a sua rotina                         | Ter acesso a saúde em qualquer situação.                     |
-
 | Jonathan Costa    | Continuar com a praticidade e a qualidade de vida em ter saúde de forma mais acessível                                | Promover a saúde tanto em utilização quanto em produção em seu próprio oficio                                                                 |
 | Fabiola Ferreira  | Ter acesso a pessoas de forma mais fácil e segura para ambos os lados                               | Oferecer saúde de qualidade de forma confortável com que todos tenham acesso a saúde independente da situação que se encontra          |
 
