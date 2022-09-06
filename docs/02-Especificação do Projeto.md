@@ -79,3 +79,5 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ![Casos de uso clínica médica](https://user-images.githubusercontent.com/71783235/188753824-1e43696c-747f-406a-8a17-a9bdd6f475b8.jpg)
 
+![caso de uso pro medico](https://user-images.githubusercontent.com/71783235/188758525-ed301051-3594-4125-894d-a5adc1f63267.jpg)
+
