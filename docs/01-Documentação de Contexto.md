@@ -35,7 +35,7 @@ Uma pesquisa destacou que, a nível global, o investimento das empresas em telem
 
 Ainda que inúmeras doenças não possam ser tratadas apenas por meio do vídeo, por vezes é necessário estar presente para que os médicos possam investigar o paciente, uma parte dos problemas de saúde podem ser resolvidos de forma online, sobretudo se a busca das pessoas for por orientação médica ou relacionada à saúde mental.
 
-Segundo a pesquisa, ao menos 36% dos entrevistados experimentaram episódios de ansiedade e depressão. Entre eles, a maior parte é composta pela Geração Z e pelos Millennials. E a maioria deles procurou atendimento psicológico de forma virtual.
+Segundo a pesquisa, ao menos 36% dos entrevistados experimentaram episódios de ansiedade e depressão. Entre eles, a maior parte é composta pela Geração Z e pelos Millennials. E a maioria deles procurou atendimento psicológico de forma virtual, mesmo que a maior parte de quem de fato efetua os atendimentos são pessoas assalariadas, principalmente as que possuem plano de saúde.
 
 O estudo mostra também que pelo menos 51% dos entrevistados da pesquisa fizeram uso de consultas virtuais (telemedicina ou ligações por voz) durante a pandemia. E entre eles, 91% afirmaram que voltarão a usá-la no futuro. A pesquisa aponta que os países com maior adesão às consultas não-presenciais foram a China (87%), Índia (86%) e Estados Unidos (85%) com base no ano passado.
 
