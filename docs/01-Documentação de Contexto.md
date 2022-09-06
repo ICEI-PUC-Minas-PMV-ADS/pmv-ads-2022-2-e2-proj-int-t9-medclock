@@ -1,46 +1,42 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Desde o início da pandemia, todos os olhos se voltaram ao setor de saúde. A presença do vírus, o tratamento dos pacientes e a administração dos hospitais trouxeram não apenas o desafio de vencer a Covid-19, mas também evidenciaram problemas antigos na administração pública e privada da saúde em todo o mundo, o que abriu portas tanto para uma intensa temporada de mudanças e inovação na área. Uma delas foi a adaptação de instituições de saúde e de pacientes às consultas médicas virtuais.
+
+A consultoria PWC trouxe uma série de dados na pesquisa “Global Top Health Industry Issues” (Principais questões globais do setor de saúde), que ajudam a compreender e traçar possíveis atuações para o setor de saúde neste ano. Entre eles, há destaque ao crescimento de consultas médicas virtuais em todas as gerações, especialmente para a área de saúde mental.  Também se sobressai o uso dos dados de maneira a melhorar o sistema de saúde em momentos mais críticos.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Ainda em 2022 é comum encontrar clínicas e consultórios médicos que não fazem uso da tecnologia para a gestão de seus pacientes. Isso acaba acarretando problemas para o próprio estabelecimento e para as pessoas que procuram seus serviços.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Agendas físicas correm o risco de serem perdidas, podendo acarretar em confusão para os pacientes, e também dificultam o reagendamento de consultas, tendo que ser necessário rasurar e reescrever o horário de um paciente.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Além de que para pacientes marcarem suas consultas, ainda será necessário que entre em contato com o atendente por telefone, muitos atendimentos têm sido passados para o WhatsApp, mas ainda assim existe a incoveniência da espera pelo atendimento para a marcação.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Objetivo geral:
+Desenvolver um software que facilite o trabalho de agendamento em clínicas.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Objetivos específicos:
+
+- Fazer agendamentos mais dinâmicos, proporcionando que os próprios pacientes consigam visualizar a agenda e marquem suas próprias consultas;
+- Ajudar clínicas e consultórios reduzirem seu tempo de espera;
+- Proporcionar segurança para as informações cadastradas;
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A experiência do paciente é um conceito importante para firmar a lealdade do paciente, isso acontece a partir do momento em que ele tem o primeiro contato com o consultório médico. Assim, uma experiência positiva é muito importante para a fidelização dos clientes, e mais importante do que isso, é a possibilidade do serviço virar referência para esse paciente facilitando o marketing de boca a boca.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O contrário também é verdadeiro, uma experiência negativa perde o cliente, e também mancha a reputação do lugar. É de extrema importância uma experiência positiva no primeiro contato com o cliente.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Uma pesquisa destacou que, a nível global, o investimento das empresas em telemedicina atingiu a marca de 4.3 bilhões de dólares, um salto de 139% em comparação de 2021 com 2019.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Ainda que inúmeras doenças não possam ser tratadas apenas por meio do vídeo, por vezes é necessário estar presente para que os médicos possam investigar o paciente, uma parte dos problemas de saúde podem ser resolvidos de forma online, sobretudo se a busca das pessoas for por orientação médica ou relacionada à saúde mental.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Segundo a pesquisa, ao menos 36% dos entrevistados experimentaram episódios de ansiedade e depressão. Entre eles, a maior parte é composta pela Geração Z e pelos Millennials. E a maioria deles procurou atendimento psicológico de forma virtual.
+
+O estudo mostra também que pelo menos 51% dos entrevistados da pesquisa fizeram uso de consultas virtuais (telemedicina ou ligações por voz) durante a pandemia. E entre eles, 91% afirmaram que voltarão a usá-la no futuro. A pesquisa aponta que os países com maior adesão às consultas não-presenciais foram a China (87%), Índia (86%) e Estados Unidos (85%) com base no ano passado.
+
+Ainda que haja bastante demanda, é preciso investir em capacidade da equipe médica e das empresas para que os atendimentos virtuais possam ocorrer. Assim, destaca-se o investimento na tecnologia.
