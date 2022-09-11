@@ -14,8 +14,8 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Igor Teixeira da Costa
 * Amanda Eufrasio Cacholi
 * Caroline Samara Araujo da Silva
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Arthur Hualde Ribeiro
+* Thiago Henrique Pinto da Silva
 
 ## Orientador
 
