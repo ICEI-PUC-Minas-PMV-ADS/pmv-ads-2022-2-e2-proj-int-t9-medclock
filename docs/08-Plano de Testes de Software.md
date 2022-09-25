@@ -69,7 +69,7 @@ Por exemplo:
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://medclock.com.br<br> - Clicar no botão "Entrar" <br> - Preencher o campo de login com o e-mail ou o número de telefone <br> - Preencher o campo da senha <br> - Clicar em "Login" <br> - Clicar em Agenda Médica <br> - Escolher data e hora marcadas pelo paciente <br> Clicar em editar <br> - Preencher as informações da nova consulta <br> - clicar em "Agendar"  |
 |Critério de Êxito | - O agendamento de consulta foi realizado com sucesso. |
 |  	|  	|
-| **Caso de Teste** 	| **CT-11 – Remarcação de Consulta Médica pela Clínica**	|
+| **Caso de Teste** 	| **CT-11 – Desmarcação de Consulta Médica pela Clínica**	|
 |Requisito Associado | RF-011	- A aplicação deve possuir opção para que a clínica desmarque consultas médicas para o paciente. |
 | Objetivo do Teste 	| Verificar se a clínica consegue desmarcar a consulta para o paciente. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://medclock.com.br<br> - Clicar no botão "Entrar" <br> - Preencher o campo de login com o e-mail ou o número de telefone <br> - Preencher o campo da senha <br> - Clicar em "Login" <br> - Clicar em Agenda Médica <br> - Escolher data e hora marcadas pelo paciente <br> Clicar em - "Desmarcar"  |
@@ -77,10 +77,15 @@ Por exemplo:
 |  	|  	|
 | **Caso de Teste** 	| **CT-12 – Permitir que a Clinica Cadastre o Paciente**	|
 |Requisito Associado | RF-012	- A aplicação deve possuir opção para que a clínica cadastre o paciente no sistema. |
-| Objetivo do Teste 	| Verificar se a clínica consegue reagendar consulta para o paciente. |
+| Objetivo do Teste 	| Verificar se a clínica consegue agendar consulta e criar conta para o paciente. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://medclock.com.br<br> - Clicar no botão "Entrar" <br> - Preencher o campo de login com o e-mail ou o número de telefone <br> - Preencher o campo da senha <br> - Clicar em "Login" <br> - Clicar em Agenda Médica <br> - Escolher data e hora <br> Preencher os dados do paciente <br> - Clicar em "Criar Perfil e Realizar o Agendament"  |
 |Critério de Êxito | - O agendamento de consulta foi realizado com sucesso. |
-
+|  	|  	|
+| **Caso de Teste** 	| **CT-13 – Exclusão da Conta do Paciente**	|
+|Requisito Associado | RF-013	- A aplicação deve possuir opção para que o cliente exclua a sua conta. |
+| Objetivo do Teste 	| Verificar se o usuário consegue excluir o seu perfil. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://medclock.com.br<br> - Clicar no botão "Entrar" <br> - Preencher o campo de login com o e-mail ou o número de telefone <br> - Preencher o campo da senha <br> - Clicar em "Login" <br> - Clicar em Usuário <br> - Perfil do Usuário <br> - Clicar em Excluir Perfil  |
+|Critério de Êxito | - Perfil excluído com sucesso. |
 
 
 
