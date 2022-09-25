@@ -16,7 +16,6 @@ Por exemplo:
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-02 – Efetuar login**	|
-|:---:	|:---:	|
 |Requisito Associado | RF-02	- A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail ou o telefone do usuário. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://medclock.com.br<br> - Clicar no botão "Entrar" <br> - Preencher o campo de login com o e-mail ou o número de telefone <br> - Preencher o campo da senha <br> - Clicar em "Login" |
