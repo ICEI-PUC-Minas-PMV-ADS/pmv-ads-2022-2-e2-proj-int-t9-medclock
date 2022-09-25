@@ -57,23 +57,29 @@ Por exemplo:
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://medclock.com.br<br> - Clicar no botão "Entrar" <br> - Preencher o campo de login com o e-mail ou o número de telefone <br> - Preencher o campo da senha <br> - Clicar em "Login" <br> - Clicar em Agenda Médica  |
 |Critério de Êxito | - A clínica conseguir visualizar a agenda. |
 |  	|  	|
-| **Caso de Teste** 	| **CT-09 – Agendamento de Consulta Médica pela Clínica'**	|
+| **Caso de Teste** 	| **CT-09 – Agendamento de Consulta Médica pela Clínica**	|
 |Requisito Associado | RF-009	- A aplicação deve possuir opção para que a clínica marque consultas médicas para o paciente. |
 | Objetivo do Teste 	| Verificar se a clínica consegue agendar consulta para o paciente. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://medclock.com.br<br> - Clicar no botão "Entrar" <br> - Preencher o campo de login com o e-mail ou o número de telefone <br> - Preencher o campo da senha <br> - Clicar em "Login" <br> - Clicar em Agenda Médica <br> - Escolher data e hora <br> Preencher os dados e marcar o perfil do paciente <br> - clicar em "Agendar"  |
 |Critério de Êxito | - O agendamento de consulta foi realizado com sucesso. |
 |  	|  	|
-| **Caso de Teste** 	| **CT-10 – Remarcação de Consulta Médica pela Clínica'**	|
+| **Caso de Teste** 	| **CT-10 – Remarcação de Consulta Médica pela Clínica**	|
 |Requisito Associado | RF-010	- A aplicação deve possuir opção para que a clínica remarque consultas médicas para o paciente. |
 | Objetivo do Teste 	| Verificar se a clínica consegue reagendar consulta para o paciente. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://medclock.com.br<br> - Clicar no botão "Entrar" <br> - Preencher o campo de login com o e-mail ou o número de telefone <br> - Preencher o campo da senha <br> - Clicar em "Login" <br> - Clicar em Agenda Médica <br> - Escolher data e hora marcadas pelo paciente <br> Clicar em editar <br> - Preencher as informações da nova consulta <br> - clicar em "Agendar"  |
 |Critério de Êxito | - O agendamento de consulta foi realizado com sucesso. |
 |  	|  	|
-| **Caso de Teste** 	| **CT-11 – Remarcação de Consulta Médica pela Clínica'**	|
+| **Caso de Teste** 	| **CT-11 – Remarcação de Consulta Médica pela Clínica**	|
 |Requisito Associado | RF-011	- A aplicação deve possuir opção para que a clínica desmarque consultas médicas para o paciente. |
 | Objetivo do Teste 	| Verificar se a clínica consegue desmarcar a consulta para o paciente. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://medclock.com.br<br> - Clicar no botão "Entrar" <br> - Preencher o campo de login com o e-mail ou o número de telefone <br> - Preencher o campo da senha <br> - Clicar em "Login" <br> - Clicar em Agenda Médica <br> - Escolher data e hora marcadas pelo paciente <br> Clicar em - "Desmarcar"  |
 |Critério de Êxito | - A desmarcação de consulta foi realizado com sucesso. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-12 – Permitir que a Clinica Cadastre o Paciente**	|
+|Requisito Associado | RF-012	- A aplicação deve possuir opção para que a clínica cadastre o paciente no sistema. |
+| Objetivo do Teste 	| Verificar se a clínica consegue reagendar consulta para o paciente. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://medclock.com.br<br> - Clicar no botão "Entrar" <br> - Preencher o campo de login com o e-mail ou o número de telefone <br> - Preencher o campo da senha <br> - Clicar em "Login" <br> - Clicar em Agenda Médica <br> - Escolher data e hora <br> Preencher os dados do paciente <br> - Clicar em "Criar Perfil e Realizar o Agendament"  |
+|Critério de Êxito | - O agendamento de consulta foi realizado com sucesso. |
 
 
 
