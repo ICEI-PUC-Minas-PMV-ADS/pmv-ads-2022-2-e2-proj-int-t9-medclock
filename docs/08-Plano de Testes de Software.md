@@ -22,28 +22,28 @@ Por exemplo:
 |Critério de Êxito | - O login foi realizado com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-03 – Visualizar Agenda Médica da Clínica pelo Paciente**	|
-|Requisito Associado | RF-02	- A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail ou o telefone do usuário. |
-| Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://medclock.com.br<br> - Clicar no botão "Entrar" <br> - Preencher o campo de login com o e-mail ou o número de telefone <br> - Preencher o campo da senha <br> - Clicar em "Login" |
-|Critério de Êxito | - O login foi realizado com sucesso. |
+|Requisito Associado | RF-03	- A aplicação deve possuir opção para que o cliente visualize a agenda médica antes de realizar a marcação de consulta. |
+| Objetivo do Teste 	| Verificar se o usuário consegue visualizar a agenda médica. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://medclock.com.br<br> - Clicar no botão "Entrar" <br> - Preencher o campo de login com o e-mail ou o número de telefone <br> - Preencher o campo da senha <br> - Clicar em "Login" - Pesquisar a clínica alvo - Clicar no perfil da Clínica - Clicar em Visualizar Agenda | 
+|Critério de Êxito | - Agenda da Clínica aberta para visualização. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-04 – Marcação de Consultas pelo Paciente**	|
-|Requisito Associado | RF-02	- A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail ou o telefone do usuário. |
-| Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://medclock.com.br<br> - Clicar no botão "Entrar" <br> - Preencher o campo de login com o e-mail ou o número de telefone <br> - Preencher o campo da senha <br> - Clicar em "Login" |
-|Critério de Êxito | - O login foi realizado com sucesso. |
+|Requisito Associado | RF-04	- A aplicação deve possuir opção para que o cliente marque o agendamento de consulta. |
+| Objetivo do Teste 	| Verificar se o usuário consegue realizar o agendamento de consulta. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://medclock.com.br<br> - Clicar no botão "Entrar" <br> - Preencher o campo de login com o e-mail ou o número de telefone <br> - Preencher o campo da senha <br> - Clicar em "Login" - Pesquisar a clínica alvo - Clicar no perfil da Clínica - Clicar em Marcação de Consulta - Selecionar a dada e hora que deseja agendar - Clicar em "Agendar" |
+|Critério de Êxito | - O agendamento foi realizado com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-05 – Remarcação de Consultas pelo Paciente**	|
-|Requisito Associado | RF-02	- A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail ou o telefone do usuário. |
+|Requisito Associado | RF-05	- A aplicação deve possuir opção para que o cliente remarque a consulta. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://medclock.com.br<br> - Clicar no botão "Entrar" <br> - Preencher o campo de login com o e-mail ou o número de telefone <br> - Preencher o campo da senha <br> - Clicar em "Login" |
-|Critério de Êxito | - O login foi realizado com sucesso. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://medclock.com.br<br> - Clicar no botão "Entrar" <br> - Preencher o campo de login com o e-mail ou o número de telefone <br> - Preencher o campo da senha <br> - Clicar em "Login" - Clicar em Consultas Agendadas - Clicar em Editar - Escolher nova data e hora - Clicar em Ägendar" |
+|Critério de Êxito | - O reagendamento foi realizado com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-06 – Dermacação de Consultas pelo Paciente**	|
-|Requisito Associado | RF-02	- A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail ou o telefone do usuário. |
+|Requisito Associado | RF-06	- A aplicação deve possuir opção para que o cliente desmarque a consulta. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://medclock.com.br<br> - Clicar no botão "Entrar" <br> - Preencher o campo de login com o e-mail ou o número de telefone <br> - Preencher o campo da senha <br> - Clicar em "Login" |
-|Critério de Êxito | - O login foi realizado com sucesso. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://medclock.com.br<br> - Clicar no botão "Entrar" <br> - Preencher o campo de login com o e-mail ou o número de telefone <br> - Preencher o campo da senha <br> - Clicar em "Login" - Clicar em Consultas Agendadas - Clicar em Desmarcar  |
+|Critério de Êxito | - A desmarcação de consulta foi realizada com sucesso. |
 
 
 
