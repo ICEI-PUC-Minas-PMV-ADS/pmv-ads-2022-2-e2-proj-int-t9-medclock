@@ -36,7 +36,7 @@ Por exemplo:
 | **Caso de Teste** 	| **CT-05 – Remarcação de Consultas pelo Paciente**	|
 |Requisito Associado | RF-05	- A aplicação deve possuir opção para que o cliente remarque a consulta. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://medclock.com.br<br> - Clicar no botão "Entrar" <br> - Preencher o campo de login com o e-mail ou o número de telefone <br> - Preencher o campo da senha <br> - Clicar em "Login" - Clicar em Consultas Agendadas - Clicar em Editar - Escolher nova data e hora - Clicar em Ägendar" |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://medclock.com.br<br> - Clicar no botão "Entrar" <br> - Preencher o campo de login com o e-mail ou o número de telefone <br> - Preencher o campo da senha <br> - Clicar em "Login" <br> - Clicar em Consultas Agendadas <br> - Clicar em Editar <br> - Escolher nova data e hora <br> - Clicar em "Agendar" |
 |Critério de Êxito | - O reagendamento foi realizado com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-06 – Dermacação de Consultas pelo Paciente**	|
