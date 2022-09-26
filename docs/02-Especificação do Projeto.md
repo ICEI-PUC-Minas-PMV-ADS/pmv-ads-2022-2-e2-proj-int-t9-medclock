@@ -10,12 +10,12 @@ Luana Alves - 21 anos
 Pedro Carvalho - 23 anos
 
 - Trabalha como entregador em aplicativos de comida.
-- Ele acaba que, por falta de tempo, fazer agendamentos presenciais. Depois que começou a usar métodos de agendamento medico online, não consegue o fazer de outra forma, muito mais pratico, em sua opinião. 
+- Ele acaba que, por falta de tempo, fazer agendamentos presenciais. Depois que começou a usar métodos de agendamento medico online, não consegue fazê-lo de outra forma, muito mais prático, em sua opinião. 
 
 Jonathan Costa - 26 anos
 
 - Programador
-- Ele trabalha para uma clinica medica que utiliza serviços de agendamentos online e por trabalhar na área pode experimentar dos seus benefícios.
+- Ele trabalha para uma clínica médica que utiliza serviços de agendamentos online e por trabalhar na área pode experimentar dos seus benefícios.
 
 Fabiola Ferreira - 48 anos
 
