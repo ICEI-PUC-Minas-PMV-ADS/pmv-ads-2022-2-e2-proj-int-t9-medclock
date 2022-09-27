@@ -11,11 +11,17 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Marcus Vinicius Marinho Ferreira
+
 * Igor Teixeira da Costa
+
 * Amanda Eufrasio Cacholi
+
 * Caroline Samara Araujo da Silva
+
 * Arthur Hualde Ribeiro
+
 * Thiago Henrique Pinto da Silva
+
 
 ## Orientador
 
