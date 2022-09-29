@@ -48,45 +48,58 @@ Nesse sentido, o teste irá usar usuários reais para execução de determinadas
 
 | Caso de teste 01     |  CT 06 - Desmarcar consulta (paciente)(paciente)                                                                    | 
 | ------- | ------------------------------------------------------------------------------------------------------------ | 
-| Objetivo do teste | Verificar se o a funcionalidade desmarcar consulta está funcionando corretamente            | 
-| Ações esperadas | 1- entrar na plataforma. 2- ir em agendamento 3- e clicar em desmarcar consulta     |
+| Objetivo do teste | Verificar se o a funcionalidade desmarcar consulta está funcionando corretamente                   | 
+| Ações esperadas | 1- entrar na plataforma. 2- ir em agendamento 3- e clicar em desmarcar consulta                       |
 | Critérios de êxito | A consulta sera desmarcada                                                      |
+<b>
 
-| Caso de teste 01     |  CT 07 - Editar informaçoes (paciente) (paciente)                                                                    | 
+| Caso de teste 01     |  CT 07 - Editar informaçoes (paciente)                                                          | 
 | ------- | ------------------------------------------------------------------------------------------------------------ | 
-| Objetivo do teste | Verificar se o a funcionalidade editar informaçoes está funcionando corretamente           | 
-| Ações esperadas | 1- entrar na plataforma 2- ir em configuraçoes 3- editar informaçoes do paciente     |
-| Critérios de êxito | As informaçoes irão se mudadas com sucesso                                                     |
+| Objetivo do teste | Verificar se o a funcionalidade editar informaçoes está funcionando corretamente                   | 
+| Ações esperadas | 1- entrar na plataforma 2- ir em configuraçoes 3- editar informaçoes do paciente                     |
+| Critérios de êxito | As informaçoes irão se mudadas com sucesso                                                        |
+<b>
 
-| Caso de teste 01     |  CT 01 - cadastro (paciente)                                                                    | 
+| Caso de teste 01     |  CT 08 - cadastro (Clinica)                                                                    | 
 | ------- | ------------------------------------------------------------------------------------------------------------ | 
-| Objetivo do teste | Verificar se o a funcionalidade de cadastrar novo usuario está funcionando corretamente            | 
-| Ações esperadas | 1- acessar a area de cadastro. 2-colocar os dados para criaçao de conta. 3- salvar informaçoes.      |
-| Critérios de êxito | Uma nova conta sera criada.                                                                       |
+| Objetivo do teste | Verificar se o a funcionalidade vizualizar agenta(clinica) está funcionando corretamente           | 
+| Ações esperadas | 1- acessar a plataforma 2- consultar agenda medica                                                   |
+| Critérios de êxito | a agenda ira aparecer corretamente.                                                                       |
+<b>
 
-| Caso de teste 01     |  CT 01 - cadastro (paciente)                                                                    | 
-| ------- | ------------------------------------------------------------------------------------------------------------ | 
-| Objetivo do teste | Verificar se o a funcionalidade de cadastrar novo usuario está funcionando corretamente            | 
-| Ações esperadas | 1- acessar a area de cadastro. 2-colocar os dados para criaçao de conta. 3- salvar informaçoes.      |
-| Critérios de êxito | Uma nova conta sera criada.                                                                       |
-
-| Caso de teste 01     |  CT 01 - cadastro (paciente)                                                                    | 
+| Caso de teste 01     |  CT  09- cadastro (pClinica)                                                                    | 
 | ------- | ------------------------------------------------------------------------------------------------------------ | 
 | Objetivo do teste | Verificar se o a funcionalidade de cadastrar novo usuario está funcionando corretamente            | 
 | Ações esperadas | 1- acessar a area de cadastro. 2-colocar os dados para criaçao de conta. 3- salvar informaçoes.      |
-| Critérios de êxito | Uma nova conta sera criada.                                                                       |
+| Critérios de êxito | Permitir que a Clínica marque consultas                                                           |
+<b>
 
-| Caso de teste 01     |  CT 01 - cadastro (paciente)                                                                    | 
+| Caso de teste 01     |  CT 10 - cadastro (Clinica)                                                                    | 
 | ------- | ------------------------------------------------------------------------------------------------------------ | 
 | Objetivo do teste | Verificar se o a funcionalidade de cadastrar novo usuario está funcionando corretamente            | 
 | Ações esperadas | 1- acessar a area de cadastro. 2-colocar os dados para criaçao de conta. 3- salvar informaçoes.      |
-| Critérios de êxito | Uma nova conta sera criada.                                                                       |
+| Critérios de êxito | Permitir que a Clínica remarque consultas                                                           |
+<b>
 
-| Caso de teste 01     |  CT 01 - cadastro (paciente)                                                                    | 
+| Caso de teste 01     |  CT 11 - cadastro (Clinica)                                                                    | 
 | ------- | ------------------------------------------------------------------------------------------------------------ | 
 | Objetivo do teste | Verificar se o a funcionalidade de cadastrar novo usuario está funcionando corretamente            | 
 | Ações esperadas | 1- acessar a area de cadastro. 2-colocar os dados para criaçao de conta. 3- salvar informaçoes.      |
-| Critérios de êxito | Uma nova conta sera criada.                                                                       |
+| Critérios de êxito | Permitir que a clínica desmarque consultas para pacientes                                         |
+<b>
+
+| Caso de teste 01     |  CT 12 - cadastro (Clinica)                                                                    | 
+| ------- | ------------------------------------------------------------------------------------------------------------ | 
+| Objetivo do teste | Verificar se o a funcionalidade de cadastrar novo usuario está funcionando corretamente            | 
+| Ações esperadas | 1- acessar a area de cadastro. 2-colocar os dados para criaçao de conta. 3- salvar informaçoes.      |
+| Critérios de êxito | Permitir que a Clinica cadastre pacientes   
+<b>
+
+| Caso de teste 02     | CT 13 - vizualizar agenta (Paciente)
+|-------|-----------------------------------------------------------------------------------------------------------------|
+| Objetivo | Verificar se o a funcionalidade vizualizar agenta(clinica) está funcionando corretamente                      |
+|Ações esperadas| 1- acessar a plataforma 2- consultar agenda medica                                                      |
+|Critérios de êxito| Permitir que a conta seja excluida                                                                  |
 
 
 
