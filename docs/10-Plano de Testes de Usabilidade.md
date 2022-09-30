@@ -2,7 +2,7 @@
 
 
 
-O teste de usabilidade tem como objetivo a verificação da funcionalidade da interface da plataforma. Isto é, o teste será realizado através de ferramentas que vão permitir o usuário à execução de determinadas tarefas. Dessa forma é possível obter uma análise de usabilidade e das principais dificuldades do Sistema. Portanto, o teste tem como propósito garantir uma melhor experiência para o usuário.<br> 
+O teste de usabilidade tem como objetivo a verificação da funcionalidade da interface da plataforma. Isto é, o teste será realizado através de ferramentas que vão permitir o usuário à execução de determinadas tarefas. Dessa forma é possível obter uma análise de usabilidade e das principais dificuldades do sistema. Portanto, o teste tem como propósito garantir uma melhor experiência para o usuário.<br> 
 O teste de usabilidade a ser realizado: Descoberta do Problema: Esse modelo de teste é o mais comum e tem como objetivo identificar problemas, isto é, o usuário deve buscar brechas e falhas assim revelando as incosistências da plataforma.<br> 
 Nesse sentido, o teste irá usar usuários reais para execução de determinadas tarefas dentro da aplicação. O teste deve seguir de forma individual e por um avaliador afim de observar e coletar informações desses usuários selecionados em contato com a plataforma. 
 <br>
