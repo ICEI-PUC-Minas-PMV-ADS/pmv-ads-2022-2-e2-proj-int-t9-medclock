@@ -10,4 +10,15 @@
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Exemplo de Wireframe](img/Component%201.png)
+![Exemplo de Wireframe](img/Component%202.png)
+![Exemplo de Wireframe](img/Component%203.png)
+![Exemplo de Wireframe](img/Component%204%20.png)
+![Exemplo de Wireframe](img/Component%205.png)
+![Exemplo de Wireframe](img/Component%206.png)
+![Exemplo de Wireframe](img/Component%207.png)
+![Exemplo de Wireframe](img/Component%208.png)
+![Exemplo de Wireframe](img/Component%209.png)
+![Exemplo de Wireframe](img/Component%2010.png)
+![Exemplo de Wireframe](img/Component%2011.png)
+![Exemplo de Wireframe](img/Component%2012.png)
