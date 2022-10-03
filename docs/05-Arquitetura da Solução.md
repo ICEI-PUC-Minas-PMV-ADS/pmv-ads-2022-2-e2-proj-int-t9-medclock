@@ -12,13 +12,11 @@ Diagrama de Classes.
 
 > - ![Diagrama de Classes](./img/Diagrama%20de%20classe%20-%20MedClock.jpg)
 
-## Modelo ER (Projeto Conceitual)
+## Modelo ER 
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
 Ferramenta para geração deste artefato: Draw.io.
-
-Modelo ER.
 
 > - ![Modelo ER](./img/MER.png)
 
@@ -32,6 +30,6 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 
 ## Tecnologias Utilizadas
 
-Diagrama de Classes : dbdiagram.io
-Modelo ER : Draw.io
-Projeto de Banco de Dados : DBeaver
+Diagrama de Classes : dbdiagram.io  
+Modelo ER : Draw.io  
+Projeto de Banco de Dados : DBeaver  
