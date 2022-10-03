@@ -10,7 +10,7 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 Diagrama de Classes.
 
-> - ![Diagrama de Classes](./img/Diagrama%20de%20classe%20-%20MedClock.jpg)
+> - ![Diagrama de Classes](./img/diagrama-de-classe.jpg)
 
 ## Modelo ER 
 
