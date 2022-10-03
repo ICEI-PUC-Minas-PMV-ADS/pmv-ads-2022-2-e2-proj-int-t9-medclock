@@ -32,6 +32,6 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 
 ## Tecnologias Utilizadas
 
-Diagrama de Classes : dbdiagram.io
-Modelo ER : Draw.io
-Projeto de Banco de Dados : DBeaver
+Diagrama de Classes : dbdiagram.io  
+Modelo ER : Draw.io  
+Projeto de Banco de Dados : DBeaver  
