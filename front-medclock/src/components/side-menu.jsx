@@ -1,28 +1,22 @@
+import { useLocation, useNavigate } from "react-router-dom";
 import {
   Drawer,
-  Divider,
   List,
   ListItemButton,
   ListItemText,
   ListItemIcon,
-  IconButton,
   Toolbar,
-  Container,
 } from "@mui/material";
 
 import GroupsIcon from "@mui/icons-material/Groups";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import LocalHospitalIcon from "@mui/icons-material/LocalHospital";
-import { useState } from "react";
 
 const drawerWidth = 240;
 
 const SideMenu = () => {
-  const [selectedIndex, setSelectedIndex] = useState(0);
-
-  const handleListItemClick = (event, index) => {
-    setSelectedIndex(index);
-  };
+  const { pathname } = useLocation();
+  const navigate = useNavigate();
 
   return (
     <Drawer
@@ -37,8 +31,8 @@ const SideMenu = () => {
 
       <List component="nav">
         <ListItemButton
-          selected={selectedIndex === 0}
-          onClick={(event) => handleListItemClick(event, 0)}
+          selected={pathname === "/pacientes"}
+          onClick={() => navigate("/pacientes")}
         >
           <ListItemIcon>
             <GroupsIcon />
@@ -46,8 +40,8 @@ const SideMenu = () => {
           <ListItemText>Pacientes</ListItemText>
         </ListItemButton>
         <ListItemButton
-          selected={selectedIndex === 1}
-          onClick={(event) => handleListItemClick(event, 1)}
+          selected={pathname === "/agendamentos"}
+          onClick={() => navigate("/agendamentos")}
         >
           <ListItemIcon>
             <CalendarMonthIcon />
@@ -55,8 +49,8 @@ const SideMenu = () => {
           <ListItemText>Agendamentos</ListItemText>
         </ListItemButton>
         <ListItemButton
-          selected={selectedIndex === 2}
-          onClick={(event) => handleListItemClick(event, 2)}
+          selected={pathname === "/medicos"}
+          onClick={() => navigate("/medicos")}
         >
           <ListItemIcon>
             <LocalHospitalIcon />

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 import {
   AppBar,
@@ -17,6 +18,8 @@ import LogoutIcon from "@mui/icons-material/Logout";
 
 const ToolBar = () => {
   const [anchorEl, setAnchorEl] = useState(null);
+  const navigate = useNavigate();
+
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -25,10 +28,15 @@ const ToolBar = () => {
     setAnchorEl(null);
   };
 
+  const myInformation = () => {
+    navigate("/minhas-informacoes");
+    setAnchorEl(null);
+  };
+
   return (
     <>
       <AppBar
-        position="fixed"
+        position="sticky"
         sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}
       >
         <Toolbar
@@ -63,7 +71,7 @@ const ToolBar = () => {
           "aria-labelledby": "basic-button",
         }}
       >
-        <MenuItem onClick={handleClose}>
+        <MenuItem onClick={myInformation}>
           <ListItemIcon>
             <AccountCircleIcon />
           </ListItemIcon>
