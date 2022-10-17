@@ -47,7 +47,13 @@ const ToolBar = () => {
           }}
         >
           <AddAlarmIcon />
-          <Typography component="h1" variant="h5" color="inherit" noWrap>
+          <Typography
+            component="h1"
+            variant="h5"
+            color="inherit"
+            noWrap
+            sx={{ cursor: "default" }}
+          >
             MedClock
           </Typography>
           <IconButton
