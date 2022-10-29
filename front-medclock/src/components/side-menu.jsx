@@ -31,15 +31,6 @@ const SideMenu = () => {
 
       <List component="nav">
         <ListItemButton
-          selected={pathname === "/pacientes"}
-          onClick={() => navigate("/pacientes")}
-        >
-          <ListItemIcon>
-            <GroupsIcon />
-          </ListItemIcon>
-          <ListItemText>Pacientes</ListItemText>
-        </ListItemButton>
-        <ListItemButton
           selected={pathname === "/agendamentos"}
           onClick={() => navigate("/agendamentos")}
         >
@@ -47,6 +38,15 @@ const SideMenu = () => {
             <CalendarMonthIcon />
           </ListItemIcon>
           <ListItemText>Agendamentos</ListItemText>
+        </ListItemButton>
+        <ListItemButton
+          selected={pathname === "/pacientes"}
+          onClick={() => navigate("/pacientes")}
+        >
+          <ListItemIcon>
+            <GroupsIcon />
+          </ListItemIcon>
+          <ListItemText>Pacientes</ListItemText>
         </ListItemButton>
         <ListItemButton
           selected={pathname === "/medicos"}

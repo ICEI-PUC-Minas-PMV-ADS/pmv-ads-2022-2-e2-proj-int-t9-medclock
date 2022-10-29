@@ -7,6 +7,9 @@ import "./index.css";
 
 import ToolBar from "./components/toolbar";
 import SideMenu from "./components/side-menu";
+import Patients from "./pages/patients/patients";
+import Schedule from "./pages/schedule/schedule";
+import Doctors from "./pages/doctors/doctors";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -16,23 +19,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Box display="flex">
           <SideMenu />
 
-          <Box m={2}>
-            <Routes item xs={9}>
-              <Route
-                exact
-                path="/pacientes"
-                element={<Typography>Pacientes</Typography>}
-              />
-              <Route
-                exact
-                path="/agendamentos"
-                element={<Typography>Agendamentos</Typography>}
-              />
-              <Route
-                exact
-                path="/medicos"
-                element={<Typography>Médicos</Typography>}
-              />
+          <Box sx={{ width: "100%" }} m={2}>
+            <Routes>
+              <Route exact path="/agendamentos" element={<Schedule />} />
+              <Route exact path="/pacientes" element={<Patients />} />
+              <Route exact path="/medicos" element={<Doctors />} />
               <Route
                 exact
                 path="/minhas-informacoes"
