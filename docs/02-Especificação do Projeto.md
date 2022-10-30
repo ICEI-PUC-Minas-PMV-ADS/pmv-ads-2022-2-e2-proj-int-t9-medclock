@@ -55,6 +55,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF-011 | Permitir que a clínica desmarque consultas para pacientes         | MÉDIA      |
 | RF-012 | Permitir que a clínica cadastre pacientes                         | MÉDIA      |
 | RF-013 | Permitir que o paciente exclua sua conta                          | BAIXA      |
+| RF-001 | Permitir que o médico se cadastre na plataforma da clínica        | ALTA       |
+| RF-002 | Permitir que o médico faça login na plataforma da clínica         | ALTA       |
+| RF-003 | Permitir que o médico visualize a agenda médica da clínica        | ALTA       |
+| RF-004 | Permitir que o médico marque consultas através da plataforma      | ALTA       |
+| RF-005 | Permitir que o médico remarque consultas através da plataforma    | ALTA       |
+| RF-006 | Permitir que o médico desmarque consultas através da plataforma   | ALTA       |
 
 ### Requisitos não Funcionais
 
@@ -66,14 +72,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RNF-004 | O sistema deverá se comunicar com banco relacional                                                           | BAIXA      |
 | RNF-005 | O tempo de resposta do sistema não deve ser maior do que 30 segundos                                         | BAIXA      |
 | RNF-005 | O site deve ter bom nível de contraste entre os elementos da tela em conformidade                            | BAIXA      |
-
-## Restrições
-
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-| ID  | Restrição                                             |
-| --- | ----------------------------------------------------- |
-| 01  | O projeto deverá ser entregue até o final do semestre |
 
 ## Diagrama de Casos de Uso
 

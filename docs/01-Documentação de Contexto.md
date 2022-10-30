@@ -25,6 +25,8 @@ Objetivos específicos:
 
 ## Justificativa
 
+A pandemia ter feito as pessoas reféns de conseguir sair de casa, deu encontro a uma oportunidade de mercado que facilitasse o acesso a todas as pessoas a cuidar da sua própria saúde, assim veio a ideia de fazer uma aplicação baseada na experiencia do paciente.
+
 A experiência do paciente é um conceito importante para firmar a lealdade do paciente, isso acontece a partir do momento em que ele tem o primeiro contato com o consultório médico. Assim, uma experiência positiva é muito importante para a fidelização dos clientes, e mais importante do que isso, é a possibilidade do serviço virar referência para esse paciente facilitando o marketing de boca a boca.
 
 O contrário também é verdadeiro, uma experiência negativa perde o cliente, e também mancha a reputação do lugar. É de extrema importância uma experiência positiva no primeiro contato com o cliente.
