@@ -1,6 +1,11 @@
 # Registro de Testes de Usabilidade
 
+Relatório de Teste de Usabilidade
 
+Propósito do Teste
+
+
+O objetivo é verificar se a interface e a performance da solução proporcionam uma boa experiência para o usuário, ao identificar se há necessidade de alterações antes da entrega do projeto. O teste de usabilidade refere-se à avaliação de um protótipo, produto ou serviço testando-o com usuários representativos. Normalmente, durante um teste, os participantes tentam concluir tarefas típicas enquanto os observadores assistem, ouvem e fazem anotações. O objetivo é identificar quaisquer problemas de usabilidade, coletar dados qualitativos e quantitativos e determinar a satisfação do participante com o produto.
 
 
 
