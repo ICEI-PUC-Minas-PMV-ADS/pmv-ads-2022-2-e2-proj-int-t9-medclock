@@ -25,7 +25,31 @@
 | Caso de teste 03    | CT 03 - Vizualizar agenda (paciente)
 |-------|-----------------------------------------------------------------------------------------------------------------|
 | Objetivo do teste | Verificar a usabilidade da funcionalidade de vizualizar agenda.                            |
-|Resultado| -------------------------                                                                            |
+|Resultado| ----------------------------                                                                           |
+|Melhoria| ----------------------------                                                                          |
+
+<br>
+
+| Caso de teste 04    | CT 04 - Vizualizar listagem (agendamento)
+|-------|-----------------------------------------------------------------------------------------------------------------|
+| Objetivo do teste | Verificar a usabilidade da funcionalidade de vizualizar agenda.                            |
+|Resultado| ![Resultado](img/teste-de-listagem-de-agendamento.png)                                                                            |
+|Melhoria| ----------------------------                                                                          |
+
+<br>
+
+| Caso de teste 04    | CT 04 - Vizualizar listagem (medico)
+|-------|-----------------------------------------------------------------------------------------------------------------|
+| Objetivo do teste | Verificar a usabilidade da funcionalidade de vizualizar agenda.                            |
+|Resultado| ![Resultado](img/teste-de-listagem-de-medico.png)                                                                            |
+|Melhoria| ----------------------------                                                                          |
+
+<br>
+
+| Caso de teste 04    | CT 04 - Vizualizar listagem (paciente)
+|-------|-----------------------------------------------------------------------------------------------------------------|
+| Objetivo do teste | Verificar a usabilidade da funcionalidade de vizualizar agenda.                            |
+|Resultado| ![Resultado](img/teste-de-listagem-de-paciente.png)                                                                            |
 |Melhoria| ----------------------------                                                                          |
 
 <br>
