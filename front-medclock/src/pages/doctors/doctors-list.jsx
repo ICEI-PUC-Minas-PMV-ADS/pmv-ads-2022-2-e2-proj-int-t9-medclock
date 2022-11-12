@@ -15,11 +15,11 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 const DoctorsList = () => {
   const [doctors, setDoctors] = useState();
 
-  useEffect(() => {
-    fetch("https://testeappfaculmc.herokuapp.com/api/medico").then((response) =>
-      response.json().then((data) => setDoctors(data))
-    );
-  }, []);
+  // useEffect(() => {
+  //   fetch("https://testeappfaculmc.herokuapp.com/api/medico").then((response) =>
+  //     response.json().then((data) => setDoctors(data))
+  //   );
+  // }, []);
 
   return (
     <TableContainer component={Paper}>
@@ -34,7 +34,7 @@ const DoctorsList = () => {
             <TableCell align="center">Ações</TableCell>
           </TableRow>
         </TableHead>
-        <TableBody>
+        {/* <TableBody>
           {doctors?.map((doctor) => (
             <TableRow
               key={doctor.id}
@@ -54,7 +54,7 @@ const DoctorsList = () => {
               </TableCell>
             </TableRow>
           ))}
-        </TableBody>
+        </TableBody> */}
       </Table>
     </TableContainer>
   );
