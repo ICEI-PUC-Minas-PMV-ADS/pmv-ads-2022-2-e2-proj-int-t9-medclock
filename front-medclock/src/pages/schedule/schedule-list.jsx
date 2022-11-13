@@ -17,25 +17,23 @@ const ScheduleList = () => {
   const [patients, setPatients] = useState();
   const [doctors, setDoctors] = useState();
 
-  // useEffect(() => {
-  //   fetch("https://testeappfaculmc.herokuapp.com/api/agendamento").then(
-  //     (response) => response.json().then((data) => setSchedules(data))
-  //   );
-  // }, []);
+  useEffect(() => {
+    fetch("https://testeappfaculmc.herokuapp.com/api/agendamento").then(
+      (response) => response.json().then((data) => setSchedules(data))
+    );
+  }, []);
 
-  // useEffect(() => {
-  //   fetch("https://testeappfaculmc.herokuapp.com/api/paciente").then(
-  //     (response) => response.json().then((data) => setPatients(data))
-  //   );
-  // }, []);
+  useEffect(() => {
+    fetch("https://testeappfaculmc.herokuapp.com/api/paciente").then(
+      (response) => response.json().then((data) => setPatients(data))
+    );
+  }, []);
 
-  // useEffect(() => {
-  //   fetch("https://testeappfaculmc.herokuapp.com/api/medico").then((response) =>
-  //     response.json().then((data) => setDoctors(data))
-  //   );
-  // }, []);
-
-  console.log(schedules);
+  useEffect(() => {
+    fetch("https://testeappfaculmc.herokuapp.com/api/medico").then((response) =>
+      response.json().then((data) => setDoctors(data))
+    );
+  }, []);
 
   return (
     <TableContainer component={Paper}>
@@ -48,7 +46,7 @@ const ScheduleList = () => {
             <TableCell align="center">Ações</TableCell>
           </TableRow>
         </TableHead>
-        {/* <TableBody>
+        <TableBody>
           {schedules?.map((schedule) => (
             <TableRow
               key={schedule.id}
@@ -78,7 +76,7 @@ const ScheduleList = () => {
               </TableCell>
             </TableRow>
           ))}
-        </TableBody> */}
+        </TableBody>
       </Table>
     </TableContainer>
   );
