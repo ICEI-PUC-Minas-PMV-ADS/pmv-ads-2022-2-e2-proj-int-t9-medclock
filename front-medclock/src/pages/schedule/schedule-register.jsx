@@ -66,31 +66,37 @@ const ScheduleRegister = () => {
 
     console.log(form)
 
-    try {
-      await fetch("https://testeappfaculmc.herokuapp.com/api/agendamento", {
-        headers: {
-          'Accept': 'application/json, text/plain',
-          'Content-Type': 'application/json;charset=UTF-8'            },
-        mode: 'no-cors',
-        method: "POST",
-        body: form,
-      });
+    // try {
+    //   await fetch("https://testeappfaculmc.herokuapp.com/api/agendamento", {
+    //     headers: {
+    //       'Accept': 'application/json, text/plain',
+    //       'Content-Type': 'application/json;charset=UTF-8'            },
+    //     mode: 'no-cors',
+    //     method: "POST",
+    //     body: form,
+    //   });
 
-      openNotification("success", "Consulta agendada com sucesso.");
-    } catch {
-      openNotification("error", "Ocorreu um erro ao agendar consulta.");
-    }
-
-    // api.post("agendamento", form).then( (response)=>{
-
-    //   if(response.state >= 200 && response.state < 300){
-    //     openNotification("success", "Consulta agendada com sucesso.");
-    //     return
-    //   } 
+    //   openNotification("success", "Consulta agendada com sucesso.");
+    // } catch {
     //   openNotification("error", "Ocorreu um erro ao agendar consulta.");
+    // }
+
+    api.post("agendamento", form).then( (response)=>{
+
+      if(response.state >= 200 && response.state < 300){
+        openNotification("success", "Consulta agendada com sucesso.");
+        return
+      } 
+      openNotification("error", "Ocorreu um erro ao agendar consulta.");
         
-    // });
+    });
   };
+
+  const chageDate = (d)=>{
+    let array = d.split('')
+    let dateFormater = array[8] + array[9] + "/" +  array[5] + array[6] + "/" + array[0] + array[1] + array[2] + array[3] + " " + array[11] + array[12] + ":" + array[14] + array[15]
+    return dateFormater
+  }
 
   const isDateValid = useMemo(
     () => isAfter(new Date(), new Date(form?.dataHoraAgendamento)),
@@ -131,7 +137,7 @@ const ScheduleRegister = () => {
               onChange={(event) =>
                 setForm({
                   ...form,
-                  dataHoraAgendamento: event.target.value.replace("T", " "),
+                  dataHoraAgendamento: chageDate(event.target.value),
                 })
               }
               error={isDateValid}
