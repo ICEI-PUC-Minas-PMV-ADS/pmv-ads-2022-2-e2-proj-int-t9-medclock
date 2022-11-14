@@ -1,10 +1,12 @@
 import { useEffect, useState, useMemo } from "react";
 import { Box, Button, TextField } from "@mui/material";
 import { isAfter } from "date-fns";
+import axios from "axios";
 
 import AutocompleteInput from "../../components/autocomplete-input";
 import SimpleDialog from "../../components/simple-dialog";
 import Notification from "../../components/notification";
+import { api } from "../../../services/api";
 
 const ScheduleRegister = () => {
   const [doctors, setDoctors] = useState();
@@ -62,16 +64,32 @@ const ScheduleRegister = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
 
+    console.log(form)
+
     try {
       await fetch("https://testeappfaculmc.herokuapp.com/api/agendamento", {
+        headers: {
+          'Accept': 'application/json, text/plain',
+          'Content-Type': 'application/json;charset=UTF-8'            },
+        mode: 'no-cors',
         method: "POST",
-        body: JSON.stringify(form),
+        body: form,
       });
 
       openNotification("success", "Consulta agendada com sucesso.");
     } catch {
       openNotification("error", "Ocorreu um erro ao agendar consulta.");
     }
+
+    // api.post("agendamento", form).then( (response)=>{
+
+    //   if(response.state >= 200 && response.state < 300){
+    //     openNotification("success", "Consulta agendada com sucesso.");
+    //     return
+    //   } 
+    //   openNotification("error", "Ocorreu um erro ao agendar consulta.");
+        
+    // });
   };
 
   const isDateValid = useMemo(
@@ -113,7 +131,7 @@ const ScheduleRegister = () => {
               onChange={(event) =>
                 setForm({
                   ...form,
-                  dataHoraAgendamento: event.target.value,
+                  dataHoraAgendamento: event.target.value.replace("T", " "),
                 })
               }
               error={isDateValid}
