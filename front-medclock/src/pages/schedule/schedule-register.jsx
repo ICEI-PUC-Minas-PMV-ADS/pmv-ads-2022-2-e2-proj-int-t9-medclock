@@ -1,7 +1,6 @@
 import { useEffect, useState, useMemo } from "react";
 import { Box, Button, TextField } from "@mui/material";
-import { isAfter } from "date-fns";
-import axios from "axios";
+import { format, isAfter } from "date-fns";
 
 import AutocompleteInput from "../../components/autocomplete-input";
 import SimpleDialog from "../../components/simple-dialog";
@@ -64,39 +63,21 @@ const ScheduleRegister = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    console.log(form)
+    try {
+      await api.post("agendamento", {
+        ...form,
+        dataHoraAgendamento: format(
+          new Date(form.dataHoraAgendamento),
+          "dd/MM/yyyy HH:mm"
+        ),
+      });
 
-    // try {
-    //   await fetch("https://testeappfaculmc.herokuapp.com/api/agendamento", {
-    //     headers: {
-    //       'Accept': 'application/json, text/plain',
-    //       'Content-Type': 'application/json;charset=UTF-8'            },
-    //     mode: 'no-cors',
-    //     method: "POST",
-    //     body: form,
-    //   });
-
-    //   openNotification("success", "Consulta agendada com sucesso.");
-    // } catch {
-    //   openNotification("error", "Ocorreu um erro ao agendar consulta.");
-    // }
-
-    api.post("agendamento", form).then( (response)=>{
-
-      if(response.state >= 200 && response.state < 300){
-        openNotification("success", "Consulta agendada com sucesso.");
-        return
-      } 
+      handleClose();
+      openNotification("success", "Consulta agendada com sucesso.");
+    } catch {
       openNotification("error", "Ocorreu um erro ao agendar consulta.");
-        
-    });
+    }
   };
-
-  const chageDate = (d)=>{
-    let array = d.split('')
-    let dateFormater = array[8] + array[9] + "/" +  array[5] + array[6] + "/" + array[0] + array[1] + array[2] + array[3] + " " + array[11] + array[12] + ":" + array[14] + array[15]
-    return dateFormater
-  }
 
   const isDateValid = useMemo(
     () => isAfter(new Date(), new Date(form?.dataHoraAgendamento)),
@@ -137,7 +118,7 @@ const ScheduleRegister = () => {
               onChange={(event) =>
                 setForm({
                   ...form,
-                  dataHoraAgendamento: chageDate(event.target.value),
+                  dataHoraAgendamento: event.target.value,
                 })
               }
               error={isDateValid}
@@ -146,7 +127,9 @@ const ScheduleRegister = () => {
               fullWidth
             />
             <Box display="flex" justifyContent="flex-end">
-              <Button type="submit">Confirmar</Button>
+              <Button type="submit" disabled={isDateValid}>
+                Confirmar
+              </Button>
             </Box>
           </Box>
         </form>
