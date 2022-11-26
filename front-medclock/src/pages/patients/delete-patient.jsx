@@ -2,15 +2,15 @@ import { Box, Button } from "@mui/material";
 
 import SimpleDialog from "../../components/simple-dialog";
 
-const CancelSchedule = ({ _data, isOpen, handleClose }) => {
+const DeletePatient = ({ _data, isOpen, handleClose }) => {
   return (
     <SimpleDialog
-      title="Desmarcar consulta"
+      title="Excluir paciente"
       open={isOpen}
       handleClose={handleClose}
       maxWidth="xs"
     >
-      Tem certeza que deseja desmarcar a consulta?
+      Tem certeza que deseja excluir o paciente?
       <Box display="flex" justifyContent="flex-end" mt={2}>
         <Button>Confirmar</Button>
       </Box>
@@ -18,4 +18,4 @@ const CancelSchedule = ({ _data, isOpen, handleClose }) => {
   );
 };
 
-export default CancelSchedule;
+export default DeletePatient;
