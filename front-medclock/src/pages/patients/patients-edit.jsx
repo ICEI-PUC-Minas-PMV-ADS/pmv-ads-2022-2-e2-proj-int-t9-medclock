@@ -13,7 +13,7 @@ import SimpleDialog from "../../components/simple-dialog";
 const PatientsEdit = ({ data, isOpen, handleClose }) => {
   const [form, setForm] = useState();
 
-  return (
+  return isOpen && data ? (
     <SimpleDialog
       title="Editar paciente"
       open={isOpen}
@@ -182,7 +182,7 @@ const PatientsEdit = ({ data, isOpen, handleClose }) => {
         </Grid>
       </form>
     </SimpleDialog>
-  );
+  ) : null;
 };
 
 export default PatientsEdit;
