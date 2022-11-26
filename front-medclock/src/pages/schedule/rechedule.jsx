@@ -46,13 +46,15 @@ const Reschedule = ({ data, isOpen, handleClose }) => {
   );
 
   const defaultDoctor = useMemo(
-    () => doctors?.find((item) => item.id === data?.idMedico).nome,
-    [doctors, data]
+    () =>
+      isOpen ? doctors?.find((item) => item.id === data?.idMedico).nome : "",
+    [doctors, data, isOpen]
   );
 
   const defaultPatient = useMemo(
-    () => patients?.find((item) => item.id === data?.idPaciente).nome,
-    [doctors, data]
+    () =>
+      isOpen ? patients?.find((item) => item.id === data?.idPaciente).nome : "",
+    [doctors, data, isOpen]
   );
 
   return isOpen && data ? (
