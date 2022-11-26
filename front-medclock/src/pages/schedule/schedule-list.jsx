@@ -17,6 +17,7 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 import EditIcon from "@mui/icons-material/Edit";
 import CancelIcon from "@mui/icons-material/Cancel";
 import Reschedule from "./rechedule";
+import CancelSchedule from "./cancel-schedule";
 
 const ScheduleList = () => {
   const [schedules, setSchedules] = useState();
@@ -27,6 +28,8 @@ const ScheduleList = () => {
 
   const [isRescheduleOpen, setIsRescheduleOpen] = useState(false);
   const toggleReschedule = () => setIsRescheduleOpen((state) => !state);
+  const [isCancelScheduleOpen, setIsCancelScheduleOpen] = useState(false);
+  const toggleCancelSchedule = () => setIsCancelScheduleOpen((state) => !state);
 
   const open = Boolean(anchorEl);
   const handleClick = (event, data) => {
@@ -118,7 +121,7 @@ const ScheduleList = () => {
           </ListItemIcon>
           Reagendar consulta
         </MenuItem>
-        <MenuItem onClick={(event) => console.log(event)}>
+        <MenuItem onClick={toggleCancelSchedule}>
           <ListItemIcon>
             <CancelIcon />
           </ListItemIcon>
@@ -129,6 +132,11 @@ const ScheduleList = () => {
         isOpen={isRescheduleOpen}
         handleClose={toggleReschedule}
         data={clickedScheduleId}
+      />
+      <CancelSchedule
+        data={clickedScheduleId}
+        isOpen={isCancelScheduleOpen}
+        handleClose={toggleCancelSchedule}
       />
     </>
   );
