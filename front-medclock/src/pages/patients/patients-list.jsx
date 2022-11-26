@@ -16,7 +16,9 @@ import {
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import EditIcon from "@mui/icons-material/Edit";
 import CancelIcon from "@mui/icons-material/Cancel";
+
 import PatientsEdit from "./patients-edit";
+import DeletePatient from "./delete-patient";
 
 const PatientsList = () => {
   const [patients, setPatients] = useState();
@@ -25,6 +27,8 @@ const PatientsList = () => {
 
   const [isPatientsEditOpen, setIsPatientsEditOpen] = useState(false);
   const togglePatientsEdit = () => setIsPatientsEditOpen((state) => !state);
+  const [isPatientsDeleteOpen, setPatientsDeleteOpen] = useState(false);
+  const togglePatientsDelete = () => setPatientsDeleteOpen((state) => !state);
 
   const open = Boolean(anchorEl);
   const handleClick = (event, data) => {
@@ -93,7 +97,7 @@ const PatientsList = () => {
           </ListItemIcon>
           Editar paciente
         </MenuItem>
-        <MenuItem>
+        <MenuItem onClick={togglePatientsDelete}>
           <ListItemIcon>
             <CancelIcon />
           </ListItemIcon>
@@ -103,6 +107,11 @@ const PatientsList = () => {
       <PatientsEdit
         isOpen={isPatientsEditOpen}
         handleClose={togglePatientsEdit}
+        data={patientClicked}
+      />
+      <DeletePatient
+        isOpen={isPatientsDeleteOpen}
+        handleClose={togglePatientsDelete}
         data={patientClicked}
       />
     </>
