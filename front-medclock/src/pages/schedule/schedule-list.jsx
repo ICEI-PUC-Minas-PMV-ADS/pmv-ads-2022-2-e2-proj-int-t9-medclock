@@ -13,11 +13,12 @@ import {
   ListItemIcon,
 } from "@mui/material";
 
+import Reschedule from "./rechedule";
+import CancelSchedule from "./cancel-schedule";
+
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import EditIcon from "@mui/icons-material/Edit";
 import CancelIcon from "@mui/icons-material/Cancel";
-import Reschedule from "./rechedule";
-import CancelSchedule from "./cancel-schedule";
 
 const ScheduleList = () => {
   const [schedules, setSchedules] = useState();
@@ -92,12 +93,8 @@ const ScheduleList = () => {
                 <TableCell align="center">
                   {schedule?.dataHoraAgendamento}
                 </TableCell>
-
                 <TableCell align="center">
-                  <IconButton
-                    key={`${schedule.id} ID AQUI`}
-                    onClick={(event) => handleClick(event, schedule)}
-                  >
+                  <IconButton onClick={(event) => handleClick(event, schedule)}>
                     <MoreVertIcon />
                   </IconButton>
                 </TableCell>

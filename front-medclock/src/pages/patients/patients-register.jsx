@@ -20,7 +20,7 @@ const PatientsRegister = () => {
     toggleCloseDialog();
     setForm(undefined);
   };
-  console.log(form);
+
   return (
     <>
       <Button variant="contained" onClick={toggleCloseDialog}>
