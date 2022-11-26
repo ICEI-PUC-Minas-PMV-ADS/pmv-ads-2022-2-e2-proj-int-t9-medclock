@@ -16,6 +16,7 @@ import {
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import EditIcon from "@mui/icons-material/Edit";
 import CancelIcon from "@mui/icons-material/Cancel";
+import Reschedule from "./rechedule";
 
 const ScheduleList = () => {
   const [schedules, setSchedules] = useState();
@@ -24,10 +25,13 @@ const ScheduleList = () => {
   const [anchorEl, setAnchorEl] = useState(null);
   const [clickedScheduleId, setClickedScheduleId] = useState(null);
 
+  const [isRescheduleOpen, setIsRescheduleOpen] = useState(false);
+  const toggleReschedule = () => setIsRescheduleOpen((state) => !state);
+
   const open = Boolean(anchorEl);
-  const handleClick = (event, id) => {
+  const handleClick = (event, data) => {
     setAnchorEl(event.currentTarget);
-    setClickedScheduleId(id);
+    setClickedScheduleId(data);
   };
   const handleClose = () => {
     setAnchorEl(null);
@@ -89,7 +93,7 @@ const ScheduleList = () => {
                 <TableCell align="center">
                   <IconButton
                     key={`${schedule.id} ID AQUI`}
-                    onClick={(event) => handleClick(event, schedule.id)}
+                    onClick={(event) => handleClick(event, schedule)}
                   >
                     <MoreVertIcon />
                   </IconButton>
@@ -108,7 +112,7 @@ const ScheduleList = () => {
           "aria-labelledby": "basic-button",
         }}
       >
-        <MenuItem>
+        <MenuItem onClick={toggleReschedule}>
           <ListItemIcon>
             <EditIcon />
           </ListItemIcon>
@@ -121,6 +125,11 @@ const ScheduleList = () => {
           Desmarcar consulta
         </MenuItem>
       </Menu>
+      <Reschedule
+        isOpen={isRescheduleOpen}
+        handleClose={toggleReschedule}
+        data={clickedScheduleId}
+      />
     </>
   );
 };
