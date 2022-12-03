@@ -10,29 +10,74 @@ import SideMenu from "./components/side-menu";
 import Patients from "./pages/patients/patients";
 import Schedule from "./pages/schedule/schedule";
 import Doctors from "./pages/doctors/doctors";
+import InitialPage from "./pages/sign-in-up/initial-page";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
-      <Box display="flex" flexDirection="column">
-        <ToolBar />
-        <Box display="flex">
-          <SideMenu />
-
-          <Box sx={{ width: "100%" }} m={2}>
-            <Routes>
-              <Route exact path="/agendamentos" element={<Schedule />} />
-              <Route exact path="/pacientes" element={<Patients />} />
-              <Route exact path="/medicos" element={<Doctors />} />
-              <Route
-                exact
-                path="/minhas-informacoes"
-                element={<Typography>Minhas informacoes</Typography>}
-              />
-            </Routes>
-          </Box>
-        </Box>
-      </Box>
+      <Routes>
+        <Route exact path="/" element={<InitialPage />} />
+        <Route
+          exact
+          path="/agendamentos"
+          element={
+            <Box display="flex" flexDirection="column">
+              <ToolBar />
+              <Box display="flex">
+                <SideMenu />
+                <Box sx={{ width: "100%" }} m={2}>
+                  <Schedule />
+                </Box>
+              </Box>
+            </Box>
+          }
+        />
+        <Route
+          exact
+          path="/pacientes"
+          element={
+            <Box display="flex" flexDirection="column">
+              <ToolBar />
+              <Box display="flex">
+                <SideMenu />
+                <Box sx={{ width: "100%" }} m={2}>
+                  <Patients />
+                </Box>
+              </Box>
+            </Box>
+          }
+        />
+        <Route
+          exact
+          path="/medicos"
+          element={
+            <Box display="flex" flexDirection="column">
+              <ToolBar />
+              <Box display="flex">
+                <SideMenu />
+                <Box sx={{ width: "100%" }} m={2}>
+                  <Doctors />
+                </Box>
+              </Box>
+            </Box>
+          }
+        />
+        <Route
+          exact
+          path="/minhas-informacoes"
+          element={
+            <Box display="flex" flexDirection="column">
+              <ToolBar />
+              <Box display="flex">
+                <SideMenu />
+                <Box sx={{ width: "100%" }} m={2}>
+                  <Typography>Minhas informacoes</Typography>
+                </Box>
+              </Box>
+            </Box>
+          }
+        />
+      </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );
