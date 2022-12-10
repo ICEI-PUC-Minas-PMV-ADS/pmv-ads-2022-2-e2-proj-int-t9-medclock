@@ -29,7 +29,7 @@ const PatientsRegister = () => {
       <SimpleDialog
         open={isDialogOpen}
         handleClose={handleClose}
-        title="Agendar nova consulta"
+        title="Cadastrar novo paciente"
         onConfirmTitle="Confirmar"
         maxWidth="sm"
       >
