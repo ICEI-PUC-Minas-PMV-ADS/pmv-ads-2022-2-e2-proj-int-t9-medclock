@@ -40,7 +40,7 @@ const ScheduleList = () => {
   };
 
   useEffect(() => {
-    fetch("https://testeappfaculmc.herokuapp.com/api/agendamento").then(
+    fetch("http://localhost:8080/api/agendamento/especificada").then(
       (response) => response.json().then((data) => setSchedules(data))
     );
   }, []);
@@ -64,9 +64,9 @@ const ScheduleList = () => {
                 sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
               >
                 <TableCell component="th" scope="row">
-                  {schedule?.medico.nome}
+                  {schedule?.nomeMedico}
                 </TableCell>
-                <TableCell align="center">{schedule?.paciente.nome}</TableCell>
+                <TableCell align="center">{schedule?.nomePaciente}</TableCell>
                 <TableCell align="center">
                   {schedule?.dataHoraAgendamento}
                 </TableCell>

@@ -2,6 +2,7 @@ import { Box, Button, Grid, TextField } from "@mui/material";
 import { useState } from "react";
 import Notification from "../../components/notification";
 import SimpleDialog from "../../components/simple-dialog";
+import { api } from "../../../services/api";
 
 const DoctorsRegister = () => {
   const [form, setForm] = useState();
@@ -25,13 +26,12 @@ const DoctorsRegister = () => {
     setForm(undefined);
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
 
     try {
-      fetch(`https://testeappfaculmc.herokuapp.com/api/medico`, {
-        method: "POST",
-        body: JSON.stringify(form),
+      await api.post(`medico`, {
+        ...form
       });
 
       handleClose();
