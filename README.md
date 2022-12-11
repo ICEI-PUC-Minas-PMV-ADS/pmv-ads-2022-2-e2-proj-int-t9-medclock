@@ -1,37 +1,33 @@
-# TÍTULO DO PROJETO
+# Medclock
 
 `Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Eixo 2 - Projeto: Desenvolvimento de uma Aplicação Interativa - Turma 09 - 2022/2`
 
-`SEMESTRE`
+`Segundo semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O Medclock é um sistema de gerencimento para clínicas e consultórios médicos, ele permite que pacientes e médicos, depois de cadastrados pelo administrador, faça login na plataforma e gerenciem suas próprias consultas consultas.
 
 ## Integrantes
 
-* Marcus Vinicius Marinho Ferreira
-* Igor Teixeira da Costa
-* Amanda Eufrasio Cacholi
-* Caroline Samara Araujo da Silva
-* Arthur Hualde Ribeiro
-* Thiago Henrique Pinto da Silva
+- Marcus Vinicius Marinho Ferreira
+- Igor Teixeira da Costa
+- Amanda Eufrasio Cacholi
+- Caroline Samara Araujo da Silva
+- Arthur Hualde Ribeiro
+- Thiago Henrique Pinto da Silva
 
 ## Orientador
 
-* Viviane Cristina Dias
+- Viviane Cristina Dias
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+1. Clonar repositório
+2. cd front-medclock
+3. npm run dev
 
-
-
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
-
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+Ou acessar o link: https://medclock.netlify.app/
 
 # Documentação
 
