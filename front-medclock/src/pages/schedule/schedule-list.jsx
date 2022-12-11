@@ -40,7 +40,7 @@ const ScheduleList = () => {
   };
 
   useEffect(() => {
-    fetch("http://localhost:8080/api/agendamento/especificada").then(
+    fetch("https://testeappfaculmc.herokuapp.com/api/agendamento").then(
       (response) => response.json().then((data) => setSchedules(data))
     );
   }, []);
