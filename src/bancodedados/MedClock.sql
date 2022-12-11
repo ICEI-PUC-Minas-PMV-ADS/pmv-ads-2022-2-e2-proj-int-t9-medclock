@@ -1,4 +1,4 @@
-create database medclock
+  create database medclock
 
 use medclock
 
@@ -12,7 +12,7 @@ CREATE TABLE `paciente` (
   `email` varchar(100) NOT NULL,
   `alergia` varchar(200),
   `flag_maior_idade` int,
-  `responsavel` varchar(255) NOT NULL DEFAULT ('NÃO TEM'),
+  `responsavel` varchar(255) NOT NULL DEFAULT ('Nï¿½O TEM'),
   `login` varchar(20) NOT NULL,
   `senha` varchar(20) NOT NULL,
   `dt_criacao` timestamp NOT NULL DEFAULT (CURRENT_TIMESTAMP)
@@ -32,14 +32,14 @@ CREATE TABLE `medico` (
   `dt_criacao` timestamp NOT NULL DEFAULT (CURRENT_TIMESTAMP)
 );
 
-CREATE TABLE `agendamentos` (
+CREATE TABLE `agendamento` (
   `id` int PRIMARY KEY NOT NULL AUTO_INCREMENT,
   `id_medico` int NOT NULL,
   `id_paciente` int NOT NULL,
-  `data_hora_atendimento` timestamp NOT NULL,
+  `data_hora_agendamento` timestamp NOT NULL,
   `dt_criacao` timestamp NOT NULL DEFAULT (CURRENT_TIMESTAMP)
 );
 
-ALTER TABLE `agendamentos` ADD CONSTRAINT `FK_MEDICO` FOREIGN KEY (`id_medico`) REFERENCES `medico` (`id`);
+ALTER TABLE `agendamento` ADD CONSTRAINT `FK_MEDICO` FOREIGN KEY (`id_medico`) REFERENCES `medico` (`id`);
 
-ALTER TABLE `agendamentos` ADD CONSTRAINT `FK_PACIENTE` FOREIGN KEY (`id_paciente`) REFERENCES `paciente` (`id`);
+ALTER TABLE `agendamento` ADD CONSTRAINT `FK_PACIENTE` FOREIGN KEY (`id_paciente`) REFERENCES `paciente` (`id`);
