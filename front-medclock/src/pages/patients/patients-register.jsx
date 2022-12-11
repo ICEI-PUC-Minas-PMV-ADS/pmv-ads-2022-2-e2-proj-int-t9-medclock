@@ -10,6 +10,7 @@ import {
 
 import SimpleDialog from "../../components/simple-dialog";
 import Notification from "../../components/notification";
+import { api } from "../../../services/api";
 
 const PatientsRegister = () => {
   const [form, setForm] = useState();
@@ -33,13 +34,12 @@ const PatientsRegister = () => {
     setForm(undefined);
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
 
     try {
-      fetch(`https://testeappfaculmc.herokuapp.com/api/paciente`, {
-        method: "POST",
-        body: JSON.stringify(form),
+      await api.post(`paciente`, {
+        ...form
       });
 
       handleClose();
