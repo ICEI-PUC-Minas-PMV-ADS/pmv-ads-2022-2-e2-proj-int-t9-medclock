@@ -13,7 +13,6 @@ import {
 
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import AddAlarmIcon from "@mui/icons-material/AddAlarm";
-import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import LogoutIcon from "@mui/icons-material/Logout";
 
 const ToolBar = () => {
@@ -28,8 +27,8 @@ const ToolBar = () => {
     setAnchorEl(null);
   };
 
-  const myInformation = () => {
-    navigate("/minhas-informacoes");
+  const logout = () => {
+    navigate("/");
     setAnchorEl(null);
   };
 
@@ -77,13 +76,7 @@ const ToolBar = () => {
           "aria-labelledby": "basic-button",
         }}
       >
-        <MenuItem onClick={myInformation}>
-          <ListItemIcon>
-            <AccountCircleIcon />
-          </ListItemIcon>
-          Minhas informações
-        </MenuItem>
-        <MenuItem onClick={handleClose}>
+        <MenuItem onClick={logout}>
           <ListItemIcon>
             <LogoutIcon />
           </ListItemIcon>

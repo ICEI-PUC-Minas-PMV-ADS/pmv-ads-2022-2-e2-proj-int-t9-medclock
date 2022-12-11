@@ -22,8 +22,6 @@ import CancelIcon from "@mui/icons-material/Cancel";
 
 const ScheduleList = () => {
   const [schedules, setSchedules] = useState();
-  const [patients, setPatients] = useState();
-  const [doctors, setDoctors] = useState();
   const [anchorEl, setAnchorEl] = useState(null);
   const [clickedScheduleId, setClickedScheduleId] = useState(null);
 
@@ -47,18 +45,6 @@ const ScheduleList = () => {
     );
   }, []);
 
-  useEffect(() => {
-    fetch("https://testeappfaculmc.herokuapp.com/api/paciente").then(
-      (response) => response.json().then((data) => setPatients(data))
-    );
-  }, []);
-
-  useEffect(() => {
-    fetch("https://testeappfaculmc.herokuapp.com/api/medico").then((response) =>
-      response.json().then((data) => setDoctors(data))
-    );
-  }, []);
-
   return (
     <>
       <TableContainer component={Paper}>
@@ -78,18 +64,9 @@ const ScheduleList = () => {
                 sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
               >
                 <TableCell component="th" scope="row">
-                  {
-                    doctors?.find((doctor) => doctor.id === schedule.idMedico)
-                      .nome
-                  }
+                  {schedule?.medico.nome}
                 </TableCell>
-                <TableCell align="center">
-                  {
-                    patients?.find(
-                      (patient) => patient.id === schedule.idPaciente
-                    ).nome
-                  }
-                </TableCell>
+                <TableCell align="center">{schedule?.paciente.nome}</TableCell>
                 <TableCell align="center">
                   {schedule?.dataHoraAgendamento}
                 </TableCell>

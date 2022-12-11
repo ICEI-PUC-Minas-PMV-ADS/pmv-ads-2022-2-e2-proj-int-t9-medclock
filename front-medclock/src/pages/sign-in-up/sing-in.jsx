@@ -15,12 +15,7 @@ const SignIn = () => {
 
   return (
     <Paper elevation={4} sx={{ padding: 4 }}>
-      <Box
-        display="flex"
-        flexDirection="column"
-        alignItems="center"
-        height={450}
-      >
+      <Box display="flex" flexDirection="column" alignItems="center">
         <Typography component="h1" variant="h5">
           Login
         </Typography>

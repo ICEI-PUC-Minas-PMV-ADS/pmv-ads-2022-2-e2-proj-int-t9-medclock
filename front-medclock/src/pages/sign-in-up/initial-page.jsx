@@ -1,7 +1,6 @@
 import { Avatar, Box, Grid, Typography } from "@mui/material";
 
 import SignIn from "./sing-in";
-import SignUp from "./sing-up";
 
 import { AccessAlarmSharp } from "@mui/icons-material";
 
@@ -29,12 +28,8 @@ const InitialPage = () => {
         }}
       >
         <Grid container spacing={5} mx={30}>
-          <Grid item xs={6}>
+          <Grid item xs={12}>
             <SignIn />
-          </Grid>
-
-          <Grid item xs={6}>
-            <SignUp />
           </Grid>
         </Grid>
       </Box>

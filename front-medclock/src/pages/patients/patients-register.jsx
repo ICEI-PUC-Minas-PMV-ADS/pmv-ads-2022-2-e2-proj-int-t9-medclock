@@ -9,16 +9,44 @@ import {
 } from "@mui/material";
 
 import SimpleDialog from "../../components/simple-dialog";
+import Notification from "../../components/notification";
 
 const PatientsRegister = () => {
   const [form, setForm] = useState();
   const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const [isNotificationOpen, setIsNotificationOpen] = useState(false);
+  const [notificationType, setNotificationType] = useState();
+  const [notificationMessage, setNotificationMessage] = useState();
+
+  const toggleNotification = () => setIsNotificationOpen((state) => !state);
+
+  const openNotification = (type, message) => {
+    setIsNotificationOpen(true);
+    setNotificationType(type);
+    setNotificationMessage(message);
+  };
 
   const toggleCloseDialog = () => setIsDialogOpen((state) => !state);
 
   const handleClose = () => {
     toggleCloseDialog();
     setForm(undefined);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    try {
+      fetch(`https://testeappfaculmc.herokuapp.com/api/paciente`, {
+        method: "POST",
+        body: JSON.stringify(form),
+      });
+
+      handleClose();
+      openNotification("success", "Paciente registrado com sucesso.");
+    } catch {
+      openNotification("error", "Ocorreu um erro ao registrar paciente.");
+    }
   };
 
   return (
@@ -33,7 +61,7 @@ const PatientsRegister = () => {
         onConfirmTitle="Confirmar"
         maxWidth="sm"
       >
-        <form>
+        <form onSubmit={handleSubmit}>
           <Grid container spacing={2} mt={1}>
             <Grid item xs={6}>
               <TextField
@@ -184,6 +212,12 @@ const PatientsRegister = () => {
           </Grid>
         </form>
       </SimpleDialog>
+      <Notification
+        isOpen={isNotificationOpen}
+        message={notificationMessage}
+        handleClose={toggleNotification}
+        type={notificationType}
+      />
     </>
   );
 };
