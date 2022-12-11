@@ -47,3 +47,5 @@ public class PacienteRest{
         return ResponseEntity.status(HttpStatus.OK).body("Paciente com id " + pacienteId + " foi deletado com sucesso!");
     }
 }
+
+

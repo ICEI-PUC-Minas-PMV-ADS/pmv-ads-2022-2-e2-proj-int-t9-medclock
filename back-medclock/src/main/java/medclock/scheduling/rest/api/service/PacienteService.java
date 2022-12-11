@@ -33,6 +33,9 @@ public class PacienteService {
     public Paciente salvar(PacienteDto pacienteDto) {
         Paciente paciente = new Paciente();
         BeanUtils.copyProperties(pacienteDto, paciente);
+        if (pacienteDto.getResponsavel() == null){
+            paciente.setResponsavel("NÃO TEM");
+        }
         paciente.setDataDeNascimento(Timestamp.valueOf(pacienteDto.getDataDeNascimento().toString()));
         paciente.setDt_criacao(Timestamp.valueOf(LocalDateTime.now()));
         return pacienteRepository.save(paciente);

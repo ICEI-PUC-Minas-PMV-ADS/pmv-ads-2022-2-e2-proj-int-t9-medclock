@@ -37,8 +37,6 @@ public class PacienteDto {
 
     public Integer flagMaiorIdade;
 
-    @NotEmpty
-    @NotBlank
     public String responsavel;
 
     @NotEmpty

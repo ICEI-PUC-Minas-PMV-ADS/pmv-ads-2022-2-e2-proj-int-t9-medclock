@@ -47,6 +47,15 @@ public class Medico {
     @Column(nullable = false, name = "dt_criacao")
     public Timestamp dt_criacao;
 
+    public Medico() {
+        super();
+    }
+
+    public Medico(Integer id) {
+        super();
+        this.id = id;
+    }
+
     public Integer getId() {
         return id;
     }

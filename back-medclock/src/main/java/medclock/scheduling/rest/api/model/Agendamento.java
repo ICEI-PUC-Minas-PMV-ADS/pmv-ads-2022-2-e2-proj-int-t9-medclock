@@ -4,9 +4,12 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import java.sql.Timestamp;
 
 @Entity
@@ -16,11 +19,13 @@ public class Agendamento {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(nullable = false, name = "id_medico")
-    private Integer idMedico;
+    @ManyToOne(optional = true, fetch = FetchType.EAGER)
+    @JoinColumn(name = "id_medico", nullable = true)
+    private Medico medico;
 
-    @Column(nullable = false, name = "id_paciente")
-    private Integer idPaciente;
+    @ManyToOne(optional = true, fetch = FetchType.EAGER)
+    @JoinColumn(name = "id_paciente", nullable = true)
+    private Paciente paciente;
 
     @Column(nullable = false, name = "data_hora_agendamento")
     @JsonFormat(pattern = "dd/MM/yyyy HH:mm")
@@ -37,20 +42,20 @@ public class Agendamento {
         this.id = id;
     }
 
-    public Integer getIdMedico() {
-        return idMedico;
+    public Medico getMedico() {
+        return medico;
     }
 
-    public void setIdMedico(Integer idMedico) {
-        this.idMedico = idMedico;
+    public void setMedico(Medico medico) {
+        this.medico = medico;
     }
 
-    public Integer getIdPaciente() {
-        return idPaciente;
+    public Paciente getPaciente() {
+        return paciente;
     }
 
-    public void setIdPaciente(Integer idPaciente) {
-        this.idPaciente = idPaciente;
+    public void setPaciente(Paciente paciente) {
+        this.paciente = paciente;
     }
 
     public Timestamp getDataHoraAgendamento() {
