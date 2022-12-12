@@ -1,7 +1,9 @@
 import { Box, Button, TextField, Typography } from "@mui/material";
-import { isAfter } from "date-fns";
+import { format, isAfter } from "date-fns";
 import { useEffect, useMemo, useState } from "react";
 
+import { api } from "../../../services/api"
+ 
 import AutocompleteInput from "../../components/autocomplete-input";
 import Notification from "../../components/notification";
 import SimpleDialog from "../../components/simple-dialog";
@@ -85,13 +87,9 @@ const Reschedule = ({ data, isOpen, handleClose }) => {
     event.preventDefault();
 
     try {
-      fetch(
-        `https://testeappfaculmc.herokuapp.com/api/agendamento/${data.id}`,
-        {
-          method: "PUT",
-          body: JSON.stringify(form),
-        }
-      );
+      await api.put(`agendamento/${data.id}`, {
+        ...form
+    });
 
       handleClose();
       openNotification("success", "Consulta remarcada com sucesso.");

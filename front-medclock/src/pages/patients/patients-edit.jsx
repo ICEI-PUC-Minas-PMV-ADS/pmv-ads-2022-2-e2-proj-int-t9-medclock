@@ -10,6 +10,7 @@ import {
 
 import SimpleDialog from "../../components/simple-dialog";
 import Notification from "../../components/notification";
+import { api } from "../../../services/api";
 
 const PatientsEdit = ({ data, isOpen, handleClose }) => {
   const [form, setForm] = useState();
@@ -47,9 +48,8 @@ const PatientsEdit = ({ data, isOpen, handleClose }) => {
     event.preventDefault();
 
     try {
-      fetch(`https://testeappfaculmc.herokuapp.com/api/paciente/${data.id}`, {
-        method: "PUT",
-        body: JSON.stringify(form),
+      await api.put(`paciente/${data.id}`, {
+        ...form
       });
 
       handleClose();

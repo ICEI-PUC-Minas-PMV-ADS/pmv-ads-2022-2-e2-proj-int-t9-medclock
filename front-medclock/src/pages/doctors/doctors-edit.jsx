@@ -3,6 +3,7 @@ import { Box, Button, Grid, TextField } from "@mui/material";
 
 import SimpleDialog from "../../components/simple-dialog";
 import Notification from "../../components/notification";
+import { api } from "../../../services/api";
 
 const DoctorsEdit = ({ data, isOpen, handleClose }) => {
   const [form, setForm] = useState();
@@ -19,7 +20,7 @@ const DoctorsEdit = ({ data, isOpen, handleClose }) => {
         telefone: data?.telefone,
         endereco: data?.endereco,
         email: data?.email,
-        especialidade: data?.alergia,
+        especialidade: data?.especialidade,
         login: data?.login,
         senha: data?.senha,
       }),
@@ -38,9 +39,8 @@ const DoctorsEdit = ({ data, isOpen, handleClose }) => {
     event.preventDefault();
 
     try {
-      fetch(`https://testeappfaculmc.herokuapp.com/api/medico/${data.id}`, {
-        method: "PUT",
-        body: JSON.stringify(form),
+      await api.put(`medico/${data.id}`, {
+        ...form
       });
 
       handleClose();
