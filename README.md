@@ -32,6 +32,8 @@ senha: 123
 
 Ou acessar o link: https://medclock.netlify.app/
 
+<br>
+
 # Documentação
 
 <ol>
@@ -46,13 +48,10 @@ Ou acessar o link: https://medclock.netlify.app/
 <li><a href="docs/09-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
 <li><a href="docs/10-Plano de Testes de Usabilidade.md"> Plano de Testes de Usabilidade</a></li>
 <li><a href="docs/11-Registro de Testes de Usabilidade.md"> Registro de Testes de Usabilidade</a></li>
-<li><a href="docs/12-Apresentação do Projeto.md"> Apresentação do Projeto</a></li>
 </ol>
 
-# Código
+<br>
 
-<li><a href="src/README.md"> Código Fonte</a></li>
-
-# Apresentação
+# Apresentação do Projeto
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
