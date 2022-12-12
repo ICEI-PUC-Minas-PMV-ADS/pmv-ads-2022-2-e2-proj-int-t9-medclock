@@ -9,24 +9,21 @@
 | Caso de teste 01    | CT 01 - Cadastro (paciente)
 |-------|-----------------------------------------------------------------------------------------------------------------|
 | Objetivo do teste | Verificar a usabilidade da funcionalidade de cadastro na plataforma.                       |
-|Resultado| -------------------------                                                                            |
-|Melhoria| ----------------------------                                                                          |
+|Resultado| ![Resultado](img/cadastro-de-paciente.png)                                                                            |
 
 <br>
 
 | Caso de teste 02    | CT 02 - Fazer login (paciente)
 |-------|-----------------------------------------------------------------------------------------------------------------|
 | Objetivo do teste | Verificar a usabilidade da funcionalidade de fazer login.                                  |
-|Resultado| -------------------------                                                                            |
-|Melhoria| ----------------------------                                                                          |
+|Resultado| ![Resultado](img/login-paciente.png)                                                                           |
 
 <br>
 
 | Caso de teste 03    | CT 03 - Vizualizar agenda (paciente)
 |-------|-----------------------------------------------------------------------------------------------------------------|
 | Objetivo do teste | Verificar a usabilidade da funcionalidade de vizualizar agenda.                            |
-|Resultado| ----------------------------                                                                           |
-|Melhoria| ----------------------------                                                                          |
+|Resultado| ![Resultado](img/teste-de-listagem-de-paciente.png)                                                                         |
 
 <br>
 
@@ -34,7 +31,6 @@
 |-------|-----------------------------------------------------------------------------------------------------------------|
 | Objetivo do teste | Verificar a usabilidade da funcionalidade de vizualizar agenda.                            |
 |Resultado| ![Resultado](img/teste-de-listagem-de-agendamento.png)                                                                            |
-|Melhoria| ----------------------------                                                                          |
 
 <br>
 
@@ -42,7 +38,6 @@
 |-------|-----------------------------------------------------------------------------------------------------------------|
 | Objetivo do teste | Verificar a usabilidade da funcionalidade de vizualizar agenda.                            |
 |Resultado| ![Resultado](img/teste-de-listagem-de-medico.png)                                                                            |
-|Melhoria| ----------------------------                                                                          |
 
 <br>
 
@@ -50,86 +45,38 @@
 |-------|-----------------------------------------------------------------------------------------------------------------|
 | Objetivo do teste | Verificar a usabilidade da funcionalidade de vizualizar agenda.                            |
 |Resultado| ![Resultado](img/teste-de-listagem-de-paciente.png)                                                                            |
-|Melhoria| ----------------------------                                                                          |
 
 <br>
 
 | Caso de teste 07    | CT 04 - Marcar consultas (paciente)
 |-------|-----------------------------------------------------------------------------------------------------------------|
 | Objetivo do teste | Verificar a usabilidade da funcionalidade de marcar consultas.                             |
-|Resultado| -------------------------                                                                            |
-|Melhoria| ----------------------------                                                                          |
+|Resultado| ![Resultado](img/marcar-consultas.png)                                                                          |
 
 <br>
 
 | Caso de teste 08    | CT 05 - Remarcar consulta (paciente)
 |-------|-----------------------------------------------------------------------------------------------------------------|
 | Objetivo do teste | Verificar a usabilidade da funcionalidade de remarcar consulta.                            |
-|Resultado| -------------------------                                                                            |
-|Melhoria| ----------------------------                                                                          |
+|Resultado| ![Resultado](img/remarcar-consulta.png)                                                                          |
 
 <br>
 
 | Caso de teste 09    | CT 06 - Desmarcar consulta (paciente)
 |-------|-----------------------------------------------------------------------------------------------------------------|
 | Objetivo do teste | Verificar a usabilidade da funcionalidade de desmarcar consulta                            |
-|Resultado| -------------------------                                                                            |
-|Melhoria| ----------------------------                                                                          |
+|Resultado| ![Resultado](img/desmarcar-consulta.png)                                                                            |
 
 <br>
 
 | Caso de teste 10    | CT 07 - Editar informaçoes (paciente)
 |-------|-----------------------------------------------------------------------------------------------------------------|
 | Objetivo do teste | Verificar a usabilidade da funcionalidade de editar informaçoes.                           |
-|Resultado| -------------------------                                                                            |
-|Melhoria| ----------------------------                                                                          |
+|Resultado| ![Resultado](img/editar-informacoes-paciente.png)                                                                          |
 
 <br>
 
 | Caso de teste 11    | CT 08 - Agenda medica(Clinica)
 |-------|-----------------------------------------------------------------------------------------------------------------|
 | Objetivo do teste | Verificar a usabilidade da funcionalidade da agenda medica.                                |
-|Resultado| -------------------------                                                                            |
-|Melhoria| ----------------------------                                                                          |
-
-<br>
-
-| Caso de teste 12    | CT 09- Marca consulta (Clinica)
-|-------|-----------------------------------------------------------------------------------------------------------------|
-| Objetivo do teste | Verificar a usabilidade da funcionalidade de marcar consulta.                              |
-|Resultado| -------------------------                                                                            |
-|Melhoria| ----------------------------                                                                          |
-
-<br>
-
-| Caso de teste 13    | CT 10 - Remarcar consulta(Clinica)
-|-------|-----------------------------------------------------------------------------------------------------------------|
-| Objetivo do teste | Verificar a usabilidade da funcionalidade de remarcar consulta.                            |
-|Resultado| -------------------------                                                                            |
-|Melhoria| ----------------------------                                                                          |
-
-<br>
-
-| Caso de teste 14    | CT 11 - Desmarcar consulta (Clinica)
-|-------|-----------------------------------------------------------------------------------------------------------------|
-| Objetivo do teste | Verificar a usabilidade da funcionalidade de desmarcar consulta.                           |
-|Resultado| -------------------------                                                                            |
-|Melhoria| ----------------------------                                                                          |
-
-<br>
-
-| Caso de teste 15    | CT 12 - Cadastro de pacientes(Clinica)
-|-------|-----------------------------------------------------------------------------------------------------------------|
-| Objetivo do teste | Verificar a usabilidade da funcionalidade de cadastro de pacientes.                        |
-|Resultado| -------------------------                                                                            |
-|Melhoria| ----------------------------                                                                          |
-
-<br>
-
-| Caso de teste 16    | CT 13 - Excluir conta (Paciente)
-|-------|-----------------------------------------------------------------------------------------------------------------|
-| Objetivo do teste | Verificar a usabilidade da funcionalidade de excluir conta (Paciente).                     |
-|Resultado| -------------------------                                                                            |
-|Melhoria| ----------------------------                                                                          |
-
-## Exibição de resultados por meio de imagens:
+|Resultado| ![Resultado](img/agenda-medica.png)                                                                             |
