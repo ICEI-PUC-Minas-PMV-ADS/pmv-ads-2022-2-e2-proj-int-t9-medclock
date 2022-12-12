@@ -27,6 +27,9 @@ O Medclock é um sistema de gerencimento para clínicas e consultórios médicos
 2. cd front-medclock
 3. npm run dev
 
+login: teste@exemplo.com
+senha: 123
+
 Ou acessar o link: https://medclock.netlify.app/
 
 # Documentação
