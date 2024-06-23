@@ -1,0 +1,26 @@
+message: Please cite this software using these metadata.
+title: Medclock
+authors:
+  - family-names: Eufrasio Cacholi
+    given-names: Amanda
+  - family-names: Marinho Ferreira
+    given-names: Marcus Vinicius
+  - family-names: Teixeira da Costa
+    given-names: Igor
+  - family-names: Araujo da Silva
+    given-names: Caroline Samara
+  - family-names: Hualde Ribeiro
+    given-names: Arthur
+  - family-names: Pinto da Silva
+    given-names: Thiago Henrique
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Cristina Dias
+    given-names: Viviane
+keywords:
+  - Medicina
+  - Gestão
+  - Consultório
+repository-code:
+version: 1.0.0
+date-released: 2022-12-11
